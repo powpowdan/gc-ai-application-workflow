@@ -41,12 +41,15 @@ POSTINGS/.
    - Level logic: open/public processes generally allow applying down one
      level from a substantive classification; internal at-level processes
      do not
-   - Hard requirements sweep: closing date not passed; language profile
-     (bilingual imperative requires testing: confirm what the applicant
-     holds); security level vs what the applicant holds; location/hybrid
-     vs where the applicant can work; education requirements vs the
-     applicant's credentials; operational requirements (overtime/on-call:
-     only the applicant can answer these)
+    - Hard requirements sweep: closing date not passed; language profile
+      (bilingual imperative requires testing: confirm what the applicant
+      holds); security level vs what the applicant holds; location/hybrid
+      vs where the applicant can work; education requirements vs the
+      applicant's credentials; operational requirements (overtime/on-call:
+      only the applicant can answer these)
+    - The applicant's facts (classification, security, language,
+      education, location) live in the RESUME.md identity block; if a
+      fact is missing there, ask the applicant, never assume
    - Verdict: GO proceeds. NO-GO gets a PROCESS-LOG row (Stage: outcome)
      with the disqualifier, no POSTINGS folder, and raw files moved to
      `POSTINGS/_archive/`. AMBIGUOUS means ask HR and wait

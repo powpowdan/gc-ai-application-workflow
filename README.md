@@ -35,6 +35,19 @@ apply" verdict, not a stretched answer.
    account (Anthropic, Google, OpenAI, or similar); some have free tiers,
    some need a subscription or API key. This is the only account setup
    the whole system requires.
+
+   If you do not already have an AI provider account, these commonly have
+   free access as of this writing (tiers change; check current pricing):
+
+   - Google AI Studio (aistudio.google.com): free Gemini API key; works
+     with most agents that let you pick a provider
+   - OpenRouter (openrouter.ai): one key, many models, including
+     free-tier ones
+   - xAI (x.ai): the Grok API has offered trial credits; usable where
+     your agent supports xAI
+
+   Sign up, create an API key, and add it in your agent's provider
+   settings (each agent documents this in its own setup guide).
 5. That is everything. No other tooling is needed.
 
 ## Setup: clone to a PRIVATE copy (required, not optional)
@@ -103,13 +116,29 @@ In order. Each one assumes the previous is done.
    > the dates, and the numbers; never write a claim or a verb I cannot
    > defend for five minutes when probed.
 
-3. Dry run (safe rehearsal, empty inbox):
+3. Personal projects (if you have any independent work):
+
+   > Read applying/PERSONAL-PROJECTS.md, then interview me about my
+   > independent projects: for each one, ask what I built, with what
+   > tools, what I did by hand versus directed an AI to do, and what
+   > broke and how I fixed it. Assign honesty tiers (HAND or DIRECTED)
+   > and verb ceilings I can defend for five minutes when probed.
+
+4. Audit (completeness check before your first application):
+
+   > Audit all my context files (RESUME, EVIDENCE-MAP, PERSONAL-PROJECTS,
+   > ANSWER-BANK, PROCESS-LOG, old-screening-questions): list everything
+   > still containing placeholders or "(example, replace)" rows, in
+   > fill-priority order, and tell me the single cheapest next thing to
+   > fill in.
+
+5. Dry run (safe rehearsal, empty inbox):
 
    > Run the session-start check from applying/AGENTS.md. My INBOX is
    > empty; walk me through what will happen the day I drop my first
    > posting in.
 
-4. Real run: save the posting text as `applying/INBOX/POSTING.md` and
+6. Real run: save the posting text as `applying/INBOX/POSTING.md` and
    the screening questions as `applying/INBOX/QUESTIONS.md` (or paste
    them into chat), then:
 
@@ -130,6 +159,35 @@ In order. Each one assumes the previous is done.
 The full pipeline definition is `applying/AGENTS.md`. The answer-writing
 method is `applying/STAR-GUIDE.md`. Read both once yourself; you will
 recognize the moments where the system asks you for a decision.
+
+## Guardrails, built in and personal
+
+Built into the workflow itself (you do not have to set these up, but
+knowing they exist is why you can trust the system):
+
+- The eligibility gate kills applications you cannot legitimately apply
+  to BEFORE any work happens (wrong area of selection, level, language,
+  security, location, closed deadline)
+- The feasibility grading kills unanswerable applications: an essential
+  question with no honest evidence (GAP) ends the process; a C-grade
+  essential comes to you for a GO/NO-GO call with the full grade profile
+  on the table
+- Verb ceilings in EVIDENCE-MAP are absolute: the agent will not upgrade
+  "supported" into "led" no matter how much better the draft would read
+- Verify flags: every fact only you can confirm (dates, magnitudes,
+  attributions) is flagged [ ] and left for you; the agent never resolves
+  them by guessing
+- Pass 2 of the three-pass loop is a human: you edit the drafts, and your
+  edits override everything
+
+Personal guardrails to hold yourself to:
+
+- Never let the agent submit anything for you; you paste into GCjobs, you
+  click submit
+- Never skip pass 2; speed is how claims drift past evidence
+- Commit after every pass: git is your undo button and your audit trail
+- When the workflow says NO-GO or GAP, believe it; that is the system
+  working, not failing
 
 ## What it will never do
 
