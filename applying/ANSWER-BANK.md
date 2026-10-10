@@ -50,7 +50,7 @@ Typical phrasing: "Experience analyzing, designing or improving processes
 or systems." / "Experience developing tools or automation."
 **[OBSERVED]**
 
-**Status: EMPTY — draft from your strongest automation story.**
+**Status: EMPTY. Draft from your strongest automation story.**
 
 ## 3. Accessibility / GC web standards
 
@@ -119,7 +119,7 @@ in a team environment."
 Typical phrasing: "Demonstrated initiative." / "Commitment to
 professional development."
 
-**Status: EMPTY — personal evidence often fits here.**
+**Status: EMPTY. Personal evidence often fits here.**
 
 ## 12. Writing / communication in writing
 
@@ -168,7 +168,7 @@ applications." **[OBSERVED]**
 Typical phrasing: "Do you have experience working with Cloud technologies
 in the support or applications development?" **[OBSERVED]**
 
-**Status: EMPTY — mind verb ceilings on adjacent/collaborative cloud
+**Status: EMPTY. Mind verb ceilings on adjacent/collaborative cloud
 work; lead depends on the poster's emphasis.**
 
 ## 19. Contributing to IM/IT projects or initiatives
@@ -176,7 +176,7 @@ work; lead depends on the poster's emphasis.**
 Typical phrasing: "Do you have experience contributing to IM/IT projects
 or initiatives?" **[OBSERVED]**
 
-**Status: EMPTY — route to the strongest example NOT already used
+**Status: EMPTY. Route to the strongest example NOT already used
 elsewhere in that application.**
 
 ## 20. ICT support / life cycle / server applications
@@ -186,7 +186,7 @@ workstation, servers, network equipment or application software."
 **[OBSERVED]** "Do you have recent experience installing, configuring and
 maintaining server based IT applications?"
 
-**Status: EMPTY — check which prongs your evidence actually covers
+**Status: EMPTY. Check which prongs your evidence actually covers
 (workstation/server/network vs application software) before drafting;
 substitute honest verbs for any combined-verb phrase you cannot fully
 claim.**

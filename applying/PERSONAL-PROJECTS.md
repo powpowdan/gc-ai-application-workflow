@@ -29,7 +29,7 @@ One section per project:
 - Verbs: the ceiling set
 - Use for: which question types this project leads
 
-## (example, replace) Sample project — tier: DIRECTED
+## (example, replace) Sample project, tier: DIRECTED
 
 - Local-first [app type] ([stack]), ~[n] LOC, [n] screens, in daily
   personal use
