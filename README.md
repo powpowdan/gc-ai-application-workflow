@@ -9,6 +9,13 @@ in a number only you can confirm.
 
 In the workflow documents, "the applicant" means you.
 
+## TL;DR
+
+1. Install git + ONE agent (Step 1 below)
+2. Clone this repo and push it to your own PRIVATE repo (Setup)
+3. Open the folder in your agent and paste prompt 1 from "Your first
+   session"
+
 ## What this is not
 
 This is not a resume generator. It is an evidence-discipline system: every
@@ -74,6 +81,22 @@ know what that means, use the https URL.
 Then open the folder in your agent. Most agents read `AGENTS.md`
 automatically at session start. If yours does not, tell it: "read
 AGENTS.md and follow it."
+
+## Updating from the template
+
+This template gets improvements occasionally (template last improved:
+2026-10). To pull them into your private copy:
+
+```
+git remote add template https://github.com/powpowdan/gc-ai-application-workflow.git
+git fetch template
+git merge template/main
+```
+
+If a merge conflict hits a file you have filled in (RESUME, EVIDENCE-MAP,
+ANSWER-BANK, PROCESS-LOG), keep YOUR content and take only structural
+changes from the template. When in doubt, read the template's version of
+the conflicted section and re-apply your facts to it by hand.
 
 ## Make it yours (one evening of work, in this order)
 
@@ -144,6 +167,15 @@ In order. Each one assumes the previous is done.
 
    > Run the session-start check.
 
+Maintenance (repeat monthly-ish, no posting needed; banks evidence for
+the next deadline):
+
+> Run a maintenance session per applying/AGENTS.md: interview me one
+> claim at a time about new work, assignments, tools, and numbers since
+> the last update; clear open NEED magnitudes in EVIDENCE-MAP; update
+> verb ceilings only with ladder calibration; never write anything I
+> cannot defend for five minutes when probed.
+
 ## Run it (every application after that)
 
 1. Drop the posting text and screening questions into
@@ -154,7 +186,10 @@ In order. Each one assumes the previous is done.
    house style, then a three-pass authoring loop where YOU edit the
    drafts (pass 2), and the agent does the final hygiene pass.
 3. You resolve the verify flags (dates, magnitudes, attributions) and
-   submit. Outcomes get logged so answers improve over time.
+   submit. Outcomes get logged so answers improve over time. When a
+   process passes screening, your ANSWER-BANK becomes the interview
+   story bank: interviews probe the same stories (see STAR-GUIDE §7),
+   so the bank you passed screening with is your prep material.
 
 The full pipeline definition is `applying/AGENTS.md`. The answer-writing
 method is `applying/STAR-GUIDE.md`. Read both once yourself; you will

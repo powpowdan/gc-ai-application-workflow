@@ -56,13 +56,18 @@ POSTINGS/.
 3. QUESTION FEASIBILITY SCAN (graded): route every question against
    EVIDENCE-MAP before drafting anything, then grade the strongest honest
    answer each question can support:
-   - A (strong): WORK-backed story at/above the poster's needed verb
-     level, STAR-complete, magnitudes known or fillable
-   - B (adequate): honest evidence at defensible verbs but thinner:
-     smaller scope, magnitude gaps needing verify flags
-   - C (stretch): defensible only at low verbs or narrow scope; survives
-     a 5-minute spoken defense but loses to a strong field
-   - GAP: no honest evidence at any defensible verb level
+    - A (strong): a non-technical screener checks MEETS inside a
+      30-second skim: mirrored first sentence, every component of the
+      qualification's wording covered at/above the needed verb level by
+      WORK-backed STAR, magnitude in the result
+    - B (adequate): MEETS on a careful read but thin margins: smaller
+      scope, magnitude gaps needing verify flags, or verb coverage that
+      needs the reviewer's benefit of the doubt
+    - C (stretch): a strict reviewer could argue DOES NOT MEET (verb
+      substitution, narrow scope); survives a 5-minute spoken defense
+      but loses to a strong field
+    - GAP: cannot honestly write the mirror sentence at all (no
+      defensible verb for an essential component)
    Decision rules:
    - Essential question at GAP = the application dies: no drafting, no
      stretching, no invention. One GAP on an essential is fatal
@@ -72,9 +77,18 @@ POSTINGS/.
    - Asset questions never kill an application, but grade them too:
      A-assets get drafted first (ranking fuel), C-assets are the first
      candidates to answer No
-   - Record the grade profile in the ANSWERS.md routing block (NOT
-     pasted) and summarize it in the PROCESS-LOG row, same as
-     disqualifiers, so patterns stay visible across processes
+    - Record the grade profile in the ANSWERS.md routing block (NOT
+      pasted) and summarize it in the PROCESS-LOG row, same as
+      disqualifiers, so patterns stay visible across processes
+    Grade-upgrade interview (before drafting): for any ESSENTIAL question
+    graded B or C, interrogate the applicant with 2-3 targeted questions
+    per capping gap (missing magnitude, unclear scope, date precision,
+    collaborator vs solo attribution), aimed strictly at upgrading the
+    grade. Record new facts into EVIDENCE-MAP immediately with ladder
+    calibration. Stop when the grade reaches A, OR two consecutive
+    rounds produce no new usable evidence; then draft at the honest
+    ceiling. Never interview past an honest ceiling to force an upgrade;
+    if the ceiling is confirmed, say so and move on
 4. Create `POSTINGS/<slug>/`, move files in as POSTING.md + QUESTIONS.md, add
    a PROCESS-LOG row. Slug rule: `<dept-short>-<poster#-tail>-<level>`
    (e.g., esdc-205123-it-02). Unique per process so concurrent
@@ -138,14 +152,33 @@ POSTINGS/.
    - Pass 1 (agent): draft in house style from the start
    - Pass 2 (applicant): substance/style edits and inline notes in ALL
      CAPS or parentheses; those edits override the draft
-   - Pass 3 (agent): hygiene pass: typos, STAR checklist, char counts,
-     verify-flag resolution, em-dash sweep, org prefixes on every
-     paragraph; apply notes and remove them
+    - Pass 3 (agent): hygiene pass: typos, STAR checklist, char counts,
+      verify-flag resolution, em-dash sweep, org prefixes on every
+      paragraph; apply notes and remove them. Then reviewer simulation:
+      re-read every pasted answer AS the screener (non-technical,
+      30-second skim, MEETS/DOES NOT MEET per component of the
+      qualification's wording); any answer not obviously MEETS goes back
+      to pass 2 with the specific component flagged, never forward to
+      the applicant
 9. The applicant verifies flags → submit → fill Applied date in
    PROCESS-LOG and set Stage to submitted
 10. On outcome (screened in/out, interview, pool): mark affected ANSWER-BANK
     entries with the result and refine; fill post-submission notes; set
     Stage to outcome
+
+## Maintenance sessions (no posting in flight)
+
+- Trigger: scheduled or on demand; never a substitute for the evidence
+  refresh at intake
+- Evidence interview: one claim at a time, ask about new work,
+  assignments, projects, tools, and numbers since the last update;
+  ladder-calibrate any verb-ceiling changes (watched / ran-with-IT /
+  ran-solo / owned)
+- Clear NEED magnitudes in EVIDENCE-MAP (each is an A-grade enabler for
+  a future answer); add new backing-map rows; refresh ANSWER-BANK
+  statuses and PERSONAL-PROJECTS facts
+- Bank, not deadline: the next intake should find evidence already
+  current
 
 ## House style (lessons from 2026 rewrites)
 
