@@ -142,6 +142,9 @@ POSTINGS/.
      IT work
    - STAR: a result sentence in EVERY answer; run the STAR pre-submission
      checklist after EVERY revision, not just the first draft
+   - STAR shape is adjustable: the qualification controls it; simple
+     duration-establishing criteria get the compact where/when/what/
+     how-long treatment (STAR-GUIDE §2), not padded narrative
    - Verify flags [ ] on every fact only the applicant can confirm (dates,
      magnitudes, attributions); never resolve them by guessing
    - Where the experience source spans orgs: attribute to the current role
@@ -153,7 +156,10 @@ POSTINGS/.
    - Pass 2 (applicant): substance/style edits and inline notes in ALL
      CAPS or parentheses; those edits override the draft
     - Pass 3 (agent): hygiene pass: typos, STAR checklist, char counts,
-      verify-flag resolution, em-dash sweep, org prefixes on every
+      verify-flag resolution, resume-contradiction sweep (an answer may
+      not claim an org or period RESUME.md does not show at all;
+      month-vs-day granularity differences are fine and never flag),
+      em-dash sweep, org prefixes on every
       paragraph; apply notes and remove them. Then reviewer simulation:
       re-read every pasted answer AS the screener (non-technical,
       30-second skim, MEETS/DOES NOT MEET per component of the

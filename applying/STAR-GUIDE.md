@@ -79,6 +79,15 @@ verb, no verifiable result.
 ~780 characters. Notice: first sentence already proves deadline + pressure;
 every action verb belongs to "I"; the result closes the loop.
 
+STAR is the default structure for experience questions, not a
+straitjacket. The qualification controls the shape: for simple
+duration-establishing criteria ("Do you have experience in the use of
+relational database systems?"), a compact evidence answer (where, when,
+what you did, how long, one concrete anchor) is equal or better than a
+full narrative. Never spend the answer setting a scene the criterion
+never asked for. Result discipline still applies: every answer closes
+with something observable.
+
 ---
 
 ## 3. The rules that fail people
@@ -207,3 +216,15 @@ Typical fields allow ~1000 characters. Discipline:
 [ ] Fits the character limit with room to spare
 [ ] Personal-project evidence only where the poster allows / role permits
 ```
+
+---
+
+## Sources (official guidance this guide aligns with)
+
+- Public Service Commission: Applying for Government of Canada jobs:
+  how to apply (the "Screening questions 101" section)
+  https://www.canada.ca/en/public-service-commission/jobs/services/gc-jobs/applying-government-canada-jobs-how-to-apply.html
+- Shared Services Canada: Tips and tricks to apply for a job
+  https://www.canada.ca/en/shared-services/corporate/about-us/careers/tips-tricks-apply-job-shared-services-canada.html
+- Treasury Board Secretariat: Understanding the application process
+  https://www.canada.ca/en/treasury-board-secretariat/corporate/understanding-application-process.html
